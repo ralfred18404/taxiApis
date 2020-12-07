@@ -13,6 +13,7 @@
 	<artifactId>bktaxi24api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bktaxi24api</name>
+	<packaging>war</packaging>
 	<description>bktaxi24api</description>
 
 	<properties>
