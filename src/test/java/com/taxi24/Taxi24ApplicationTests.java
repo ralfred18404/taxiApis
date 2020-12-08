@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Taxi24ApplicationTests {
+public class Taxi24ApplicationTests {
 
 	@Test
 	void contextLoads() {
