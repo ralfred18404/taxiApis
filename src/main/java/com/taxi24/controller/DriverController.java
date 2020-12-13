@@ -24,6 +24,11 @@ public class DriverController {
 
 	@Autowired
 	private IDriverService driverService;
+	
+	@GetMapping("info/{name}")
+	public String data(@PathVariable("name")String name) {
+		return name;
+	}
 
 	@ApiOperation("Get a list of all drivers")
 	@GetMapping(value = "findAllDrivers")
