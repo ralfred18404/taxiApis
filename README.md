@@ -8,24 +8,24 @@ This backend that powers Simple Job Application (BK Techouse Coding exercise).
 - Integration testing using JUNIT
 ## Available end points
 ### Job Listed (GET)
-Link: http://localhost:8080/api/job/jobListed
+- Link: http://localhost:8080/api/job/jobListed
 ### Find Job Detail (GET)
-Link: http://localhost:8080/api/job/jobDetails/{jobId}
+- Link: http://localhost:8080/api/job/jobDetails/{jobId}
 ### Send application (POST)
-Required params are: 
-User: (firstName, lastName, email, phoneNumber), Cv, JobId
-Link: http://localhost:8080/api/job/applyWithoutLogin
+- Required params are: 
+- User: (firstName, lastName, email, phoneNumber), Cv, JobId
+- Link: http://localhost:8080/api/job/applyWithoutLogin
 ### List Of applicants (GET)
-Link: http://localhost:8080/api/job/applicants
+- Link: http://localhost:8080/api/job/applicants
 ### View applicant By Id: (GET)
-Link: http://localhost:8080/api/job/applicantDetails/{id}
+- Link: http://localhost:8080/api/job/applicantDetails/{id}
 ### Drop Application: (PUT)
-Required: status is Dropped, Application Id and Comment
-Link: http://localhost:8080/api/job/dropApplication/{applicationId}
+- Required: status is Dropped, Application Id and Comment
+- Link: http://localhost:8080/api/job/dropApplication/{applicationId}
 ### Pass Application (PUT)
-Required: status is Passed and Application Id 
-Link: http://localhost:8080/api/job/passApplication/{applicationId}
+- Required: status is Passed and Application Id 
+- Link: http://localhost:8080/api/job/passApplication/{applicationId}
 ### Download Cv(GET)
-Required: file Name
-Link: http://localhost:8080/api/job/download/{fileName}
+- Required: file Name
+- Link: http://localhost:8080/api/job/download/{fileName}
 
