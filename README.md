@@ -1,11 +1,11 @@
 ## Challenge - Simple Job Application
 This backend that powers Simple Job Application (BK Techouse Coding exercise).
 ## Technologies
-•	Backend : Spring boot framework 
-•	Frontend : angular 12
-•	Database: Mysql 
-•	Docker server for building and running application
-•	Integration testing using JUNIT
+**	Backend : Spring boot framework 
+**	Frontend : angular 12
+**	Database: Mysql 
+**	Docker server for building and running application
+** Integration testing using JUNIT
 ## Available end points
 ### Job Listed (GET)
 Link: http://localhost:8080/api/job/jobListed
